@@ -1,4 +1,4 @@
-# Website
+## 📘 GodotMage Documentation Website
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
@@ -13,7 +13,6 @@ with npm:
 ```
 $ npm ci
 ```
-
 ### Local Development
 
 with yarn:
