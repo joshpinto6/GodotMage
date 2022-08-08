@@ -1,15 +1,20 @@
 ---
 sidebar_position: 2.6
-slug: /tutorials/3d-dungeon/index
+slug: /tutorials/3d-dungeon
 ---
 
-# Congratulations!
+# Create a 3D Dungeon Crawler
 
-You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.
+You can watch a video version of the tutorial here: 
 
 Docusaurus has **much more to offer**!
 
 Anything **unclear** or **buggy** in this tutorial? [Please report it!](https://github.com/facebook/docusaurus/discussions/4610)
+
+## Setting up the workspace
+
+## Source code files
+
 
 ## What's next?
 

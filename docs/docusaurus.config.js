@@ -9,7 +9,7 @@ const config = {
   title: 'GodotMage',
   tagline: 'Get Magic Superpowers. Free, Open-Source, No-Shortcuts Godot Tutorials, Snippets and Courses.',
   url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  baseUrl: '/GodotMage/docs',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',

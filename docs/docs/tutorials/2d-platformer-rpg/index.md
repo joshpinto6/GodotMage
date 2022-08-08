@@ -1,9 +1,9 @@
 ---
 sidebar_position: 2.5
-slug: /tutorials/2d-platformer-rpg/index
+slug: /tutorials/2d-platformer-rpg
 ---
 
-# Congratulations!
+# Make a 2D Platformer RPG
 
 You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.
 
