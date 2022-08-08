@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 2.7
 ---
 
 # Deploy your site
