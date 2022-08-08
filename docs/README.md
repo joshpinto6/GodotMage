@@ -1,5 +1,9 @@
 ## 📘 GodotMage Documentation Website
-Docusarus 2 documentation website This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+GodotMage Tutorial website. All tutorials are hosted here!
+
+This website is built using [🐱‍🐉 Docusaurus 2](https://docusaurus.io/), a modern static website generator. 
+
+Docusaurus 2 requires Node.js 16+ (You can use nvm to manage node versions) I would recommend installing npm as a package manager (rather than yarn)
 
 ### Installation
 
