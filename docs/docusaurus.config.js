@@ -93,7 +93,11 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Tutorials',
+                to: './tutorials/congratulations',
+              },
+              {
+                label: 'Snippets',
                 to: './tutorials/congratulations',
               },
             ],
@@ -106,8 +110,8 @@ const config = {
                 href: 'https://stackoverflow.com/questions/tagged/docusaurus',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Discussion Forum',
+                href: 'https://github.com/joshpinto6/GodotMage/discussions',
               },
               {
                 label: 'Twitter',
@@ -124,7 +128,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/joshpinto6/GodotMage',
               },
             ],
           },
