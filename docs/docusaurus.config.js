@@ -67,6 +67,7 @@ const config = {
       navbar: {
         title: 'GodotMage',
         logo: {
+          href: 'https://joshpinto6.github.io/GodotMage', // Default to `siteConfig.baseUrl`.
           alt: 'GodotMage Logo',
           src: 'img/logo.svg',
         },
@@ -75,7 +76,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Tutorials',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -128,7 +129,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Built with ♥ with Docusaurus`,
       },
       prism: {
         theme: lightCodeTheme,
