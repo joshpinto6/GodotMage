@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'GodotMage',
-  tagline: 'Get Magic Powers. Free, Open-Source, No-Shortcuts Godot Tutorials, Snippets and Courses.',
+  tagline: 'Get Magic Superpowers. Free, Open-Source, No-Shortcuts Godot Tutorials, Snippets and Courses.',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -59,9 +59,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'GodotMage',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'GodotMage Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -73,7 +73,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/joshpinto6/GodotMage',
             label: 'GitHub',
             position: 'right',
           },

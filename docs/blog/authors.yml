@@ -1,17 +1,11 @@
-endi:
-  name: Endilie Yacop Sucipto
-  title: Maintainer of Docusaurus
-  url: https://github.com/endiliey
-  image_url: https://github.com/endiliey.png
+joshpinto6:
+  name: Josh Pinto
+  title: GodotMage maintanter
+  url: https://github.com/joshpinto6
+  image_url: https://github.com/joshpinto6.png
+awesomeosep:
+  name: Awesome OSEP
+  title: GodotMage contributor
+  url: https://github.com/awesomeosep
+  image_url: https://github.com/awesomeosep.png
 
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
-
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
