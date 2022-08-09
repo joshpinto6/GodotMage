@@ -37,7 +37,7 @@ theme = "raditian-free-hugo-theme"
 
   [[menu.header]]
   name = "Blog"
-  URL = "#blog"
+  URL = "https://joshpinto6.github.io/GodotMage/docs/blog"
   weight = 6
 
   [[menu.header]]
