@@ -1,4 +1,4 @@
-## 📘 GodotMage Documentation Website
+## 📘 GodotMage Documentation Website 
 GodotMage Tutorial website. All tutorials are hosted here!
 
 This website is built using [🐱‍🐉 Docusaurus 2](https://docusaurus.io/), a modern static website generator. 
