@@ -27,7 +27,7 @@ theme = "raditian-free-hugo-theme"
 
   [[menu.header]]
   name = "Tutorials"
-  URL = "#portfolio"
+  URL = "https://joshpinto6.github.io/GodotMage/docs"
   weight = 2
 
   [[menu.header]]
@@ -77,8 +77,7 @@ theme = "raditian-free-hugo-theme"
     text2 = ""
 
   [params.footer]
-      copyright = "© Raditian. All rights reserved."
-      [params.footer.radity_logo]
-        x = "img/general/design-and-code-radity.png"
-        _2x = "img/general/design-and-code-radity@2x.png"
-        alt = "Design & Code - Radity"
+      copyright = "© GodotMage. All rights reserved."
+      disclaimer = "*Not affiliated with or endorsed by the Godot Game Engine."
+      notice = "Made with ♥ with Hugo (Raditian Theme)"
+      
