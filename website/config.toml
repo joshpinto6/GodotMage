@@ -1,4 +1,4 @@
-baseURL = "https://joshpinto6.github.io/GodotMage"
+baseURL = "https://joshpinto6.github.io/GodotMage/site"
 languageCode = "en-us"
 theme = "raditian-free-hugo-theme"
 
@@ -29,6 +29,7 @@ theme = "raditian-free-hugo-theme"
   name = "Tutorials"
   URL = "https://joshpinto6.github.io/GodotMage/docs"
   weight = 2
+
 
   [[menu.header]]
   name = "About"
