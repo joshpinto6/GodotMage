@@ -69,7 +69,7 @@ const config = {
         logo: {
           href: 'https://joshpinto6.github.io/GodotMage', // Default to `siteConfig.baseUrl`.
           alt: 'GodotMageLogo',
-          src: 'img/Godot_icon15.svg', 
+          src: 'img/logo_unoutlined.svg', 
         },
         items: [
           {
