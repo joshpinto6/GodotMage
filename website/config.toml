@@ -30,7 +30,6 @@ theme = "raditian-free-hugo-theme"
   URL = "https://joshpinto6.github.io/GodotMage/docs"
   weight = 2
 
-
   [[menu.header]]
   name = "About"
   URL = "#about"
@@ -76,10 +75,10 @@ theme = "raditian-free-hugo-theme"
   [params.logo]
     text1 = "GodotMage"
     text2 = ""
-    image = "img/Godot_icon13 (2).svg"
+    image = "img/logo_outline.svg"
 
   [params.footer]
       copyright = "© GodotMage. All rights reserved."
       disclaimer = "*Not affiliated with or endorsed by the Godot Game Engine."
-      notice = "Made with ♥ with Hugo (Raditian Theme)"
+      notice = "Made with ♥ with Hugo & Raditian Theme"
      
