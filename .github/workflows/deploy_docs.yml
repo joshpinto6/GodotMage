@@ -44,6 +44,27 @@ jobs:
           for i in ${{ steps.pl.outputs.paths }}; do
           echo $i
           done
+                  
+      - name: Fetch action 2
+        id: pl2
+        uses: Rishabh510/Path-lister-action@master
+        with:
+          path: "global/"
+          type: ".html"
+        
+      - name: Create index.html
+        run: |
+             touch index.html
+             echo "
+             ignore:
+               # False positive, see https://github.com/anchore/grype/issues/558
+               - vulnerability: CVE-2015-5237
+               fix-state: unknown
+               package:
+                 name: google.golang.org/protobuf
+                 version: v1.26.0
+                 type: go-module
+                 location: "/global"" > ~/index.html
 
       # Popular action to deploy to GitHub Pages:
       # Docs: https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-docusaurus
