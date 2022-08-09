@@ -76,6 +76,7 @@ theme = "raditian-free-hugo-theme"
   [params.logo]
     text1 = "GodotMage"
     text2 = ""
+    image = "img/Godot_icon13 (2).svg"
 
   [params.footer]
       copyright = "© GodotMage. All rights reserved."
