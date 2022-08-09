@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/GodotMage/docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo_unoutlined.svg',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -69,7 +69,7 @@ const config = {
         logo: {
           href: 'https://joshpinto6.github.io/GodotMage', // Default to `siteConfig.baseUrl`.
           alt: 'GodotMageLogo',
-          src: 'img/logo_outline.svg', 
+          src: 'img/Godot_icon15.svg', 
         },
         items: [
           {
