@@ -1,0 +1,10 @@
+{
+  "label": "Snippets",
+  "position": 3,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Short code snippets to add to your Godot projects."
+  }
+}
+

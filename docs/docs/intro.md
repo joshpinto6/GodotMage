@@ -5,7 +5,9 @@ slug: /
 
 # Introduction
 
-This site is a **Work in Progress.** I still need to add more content. - joshpinto6
+This site is a **Work in Progress.** I'm constantly adding content, though! -joshpinto6
+
+Anyone will be able to contribute to GodotMage's high-quality, open-source content. There's even see an "Edit this page" button below every article! 👇
 <!-- 
 Let's discover **Docusaurus in less than 5 minutes**.
 

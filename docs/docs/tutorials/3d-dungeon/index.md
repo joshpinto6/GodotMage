@@ -4,22 +4,10 @@ slug: /tutorials/3d-dungeon
 ---
 
 # Create a 3D Dungeon Crawler
+Create a 3D Dungeon Crawler game inspired by titles such as Animal Crossing and Don't Starve. Learn 3D Physics in Godot as well as Inventory Systems, and more.
 
-You can watch a video version of the tutorial here: 
+## Video Tutorial
+The **video** version of this tutorial is in progress and will be posted soon.
 
-Docusaurus has **much more to offer**!
-
-Anything **unclear** or **buggy** in this tutorial? [Please report it!](https://github.com/facebook/docusaurus/discussions/4610)
-
-## Setting up the workspace
-
-## Source code files
-
-
-## What's next?
-
-- Read the [official documentation](https://docusaurus.io/).
-- Add a custom [Design and Layout](https://docusaurus.io/docs/styling-layout)
-- Add a [search bar](https://docusaurus.io/docs/search)
-- Find inspirations in the [Docusaurus showcase](https://docusaurus.io/showcase)
-- Get involved in the [Docusaurus Community](https://docusaurus.io/community/support)
+## Coming Soon!
+🎉 This tutorial is being developed and will be released soon.
