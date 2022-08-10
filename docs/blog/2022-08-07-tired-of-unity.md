@@ -1,6 +1,6 @@
 ---
-slug: tired-of-unity-try-learning-godot
-title: Tired of Unity? Try learning Godot!
+slug: annoyed-with-unity-try-learning-godot
+title: Annoyed with Unity? Try learning Godot!
 authors: [joshpinto6]
 tags: [godot, unity, docusaurus, first-post]
 ---

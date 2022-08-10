@@ -94,15 +94,15 @@ const config = {
             items: [
               {
                 label: 'Home',
-                to: './tutorials/congratulations',
+                to: 'https://joshpinto6.github.io/GodotMage',
               },
               {
                 label: 'About',
-                to: './tutorials/congratulations',
+                to: 'https://joshpinto6.github.io/GodotMage/#about',
               },
               {
                 label: 'Contact',
-                to: './tutorials/congratulations',
+                to: 'https://joshpinto6.github.io/GodotMage/#contact',
               },
             ],
           },
@@ -111,15 +111,15 @@ const config = {
             items: [
               {
                 label: 'Tutorials',
-                to: './tutorials/congratulations',
+                to: 'https://joshpinto6.github.io/GodotMage/docs',
               },
               {
                 label: 'Snippets',
-                to: './tutorials/congratulations',
+                to: 'https://joshpinto6.github.io/GodotMage/docs/category/snippets',
               },
               {
                 label: 'Blog',
-                to: './tutorials/congratulations',
+                to: 'https://joshpinto6.github.io/GodotMage/docs/blog',
               },
             ],
           },

@@ -11,6 +11,6 @@ CC0-licensed Game Assets used in Documentation Articles are by:
 - Kay Lousberg (KayKit) Game Assets: [Itch.io](https://kaylousberg.itch.io/)
 - Superpowers Asset Packs: [Github](https://github.com/sparklinlabs/superpowers-asset-packs)
 
-This site, the documentation site is built with [Docusaurus](https://docusaurus.io), which is maintained by [Meta](meta.com).
+This site, the documentation site is built with [Docusaurus](https://docusaurus.io), which is maintained by [Meta](https://meta.com).
 
 The main (informational) website is created with [Hugo](https://gohugo.io) and the [Raditian Theme](https://github.com/radity/raditian-free-hugo-theme).
