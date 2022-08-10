@@ -1,3 +1,10 @@
+<style>
+  .footer__copy a {
+    color: white;
+    text-decoration: underline;
+  }
+</style>
+
 <footer class="footer">
   <div class="container">
     <div class="footer__left">
@@ -10,7 +17,7 @@
       </div>
       <br>
       <div class="footer__copy">
-        {{ .Site.Params.footer.notice }}
+        {{ .Site.Params.footer.notice | markdownify }}
       </div>
     </div>
     <div class="footer__links">

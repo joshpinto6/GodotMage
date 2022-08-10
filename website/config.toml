@@ -2,6 +2,10 @@ baseURL = "https://joshpinto6.github.io/GodotMage/site"
 languageCode = "en-us"
 theme = "raditian-free-hugo-theme"
 
+[params.settings123]
+
+  Title = "GodotMage"
+
 # Plugins
 [params.plugins]
 
@@ -91,5 +95,5 @@ theme = "raditian-free-hugo-theme"
   [params.footer]
       copyright = "© 2022 GodotMage. All rights reserved."
       disclaimer = "*Not affiliated with or endorsed by the Godot Game Engine."
-      notice = "Made with ♥ with Hugo & Raditian Theme"
+      notice = "Made with ♥ with [Hugo](https://gohugo.io) & [Raditian](https://github.com/radity/raditian-free-hugo-theme) Theme"
      
