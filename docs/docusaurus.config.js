@@ -150,7 +150,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Built with ♥ with Docusaurus`,
+        copyright: `Built with ♥ with <a href="https://docusaurus.io">Docusaurus</a>`,
       },
       prism: {
         theme: lightCodeTheme,
