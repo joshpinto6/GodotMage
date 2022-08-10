@@ -90,6 +90,23 @@ const config = {
         style: 'dark',
         links: [
           {
+            title: 'Main Site',
+            items: [
+              {
+                label: 'Home',
+                to: './tutorials/congratulations',
+              },
+              {
+                label: 'About',
+                to: './tutorials/congratulations',
+              },
+              {
+                label: 'Contact',
+                to: './tutorials/congratulations',
+              },
+            ],
+          },
+          {
             title: 'Docs',
             items: [
               {
@@ -100,32 +117,32 @@ const config = {
                 label: 'Snippets',
                 to: './tutorials/congratulations',
               },
+              {
+                label: 'Blog',
+                to: './tutorials/congratulations',
+              },
             ],
           },
           {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Bug Tracker',
+                href: 'https://github.com/joshpinto6/GodotMage/issues',
               },
               {
                 label: 'Discussion Forum',
                 href: 'https://github.com/joshpinto6/GodotMage/discussions',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Contribute',
+                href: 'https://github.com/joshpinto6/GodotMage',
               },
             ],
           },
           {
             title: 'More',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
               {
                 label: 'GitHub',
                 href: 'https://github.com/joshpinto6/GodotMage',
