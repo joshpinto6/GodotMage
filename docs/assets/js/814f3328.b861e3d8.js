@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[2535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Tired of Unity? Try learning Godot!","permalink":"/GodotMage/docs/blog/tired-of-unity-try-learning-godot"},{"title":"Welcome","permalink":"/GodotMage/docs/blog/welcome"}]}')}}]);
