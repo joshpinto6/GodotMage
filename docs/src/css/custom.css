@@ -5,8 +5,11 @@
  */
 
 /* You can override the default Infima variables here. */
+.col--3 {
+  --ifm-col-width: calc(3.3 / 12 * 100%) !important;
+}
 :root {
-  --ifm-color-primary: #2061cb;
+  --ifm-color-primary: #3b77d6;
   --ifm-color-primary-dark: #29784c;
   --ifm-color-primary-darker: #277148;
   --ifm-color-primary-darkest: #205d3b;
@@ -28,3 +31,4 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+

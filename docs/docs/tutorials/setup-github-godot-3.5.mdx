@@ -1,0 +1,105 @@
+---
+sidebar_position: 2.1
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# Setting up Git/Github for Godot
+> Hi, and welcome to the first tutorial on this site. I made it in a hurry, and the site is really not finished yet. Thanks for understanding! 
+-joshpinto6 (GodotMage maintainer)
+
+By now, you've probably chosen to make your game in Godot. Great choice! Godot is a great, developing game engine, with endless possibilities. But where do you start?
+
+This tutorial covers all the steps for setting up Github/Git, including what a Version Control System is, and how to use it to supercharge your games and accelerate your develpment.
+
+:::info 
+🎉 Godot 3.5 comes with new features to the built-in Git plugin, such as diff view, as well as push, pull, and fetch operations. [Read the news here!](https://godotengine.org/article/godot-3-5-cant-stop-wont-stop) 
+
+This tutorial contains instructions for how to setup and use this plugin.
+:::
+<!-- 
+## What's covered:
+- [What is Git and why should I use it?](#what-is-git-and-why-should-i-use-it)
+- How do I install Git?
+- How does Git Work?
+- Using Git VCS Plugin in Godot!
+- Using Remote Repositories -->
+
+## What is Git and why should I use it?
+You may think: "My game isn't big enough for a version control system", or that "Git sounds to complicated for me to set up". Both of these reactions are fairly commmon, but can lead make your job as a developer harder.
+
+You see, version control systems are there to make your life simpler. Waiting until your product is bigger, or thinking it sounds to complicated will result in hundreds of headaches for you as a developer. 
+
+>I would recommend investing just a little bit of time now adding Git to yur game to make your life much more simple in the future.
+
+This tutorial is about why you should use a version control system like Git, and how you can add it to your Godot games. First of all, it's important to know what Git is, what a version control system is, and why it is important.
+
+A Version Control System (or VCS) is importangt in virtually any software development project, including your godot games! But what does a VCS do? A Version Control system allows you to manage (you guessed it!) versions of your software! 
+
+> Git is one of the mosty popular version control systems, and arguably the easiest to integrate with Godot. Because of its hig usage in software, it's a really useful skill to have.
+
+### What is a "Remote Repository"?
+You may be wondering what the diference between Git and Github is. 
+
+Git and Github are not the same thing. It's important to know that Github, which is owned by Microsoft, is just one of MANY Git remote repository services out there, including:
+- GitLab
+- Bitbucket
+- SourceForge
+- Github (obviously)
+
+Github is a great remote repository host because it gives you **unlimited private and public repositories, for free with unlimitted collaborators** This tutorial will teach you how to integrate Github with Godot.
+
+### Why use a remote repository?
+
+In the prevuous section, I mentioned that Github is a remote repository. **But what does that mean?** Git is a software that you install and initialize locally on your computer wuth which you can create repositories, or storage containers for your code. 
+
+A remote repository is basically a cloud backup of this local repository. Remote repos allow you to collaborate with others, with everyone pushing and pulling to the same **main** codebase. Additionally, if your computer breaks, or you want to allow others to download and test your code, they can pull your changes to their own local repository! 
+
+:::note
+**Right now, I bet this sounds very complicated**, but I can assure you that it's not. Once you start using Git (in the next section), you'll see how simple it really is!
+::: 
+
+## Installing Git (on your device)
+The best way to convicnce you to try Git is to actually install Git. But how do we do that? The following seps will show you how to install Git on your device. Then w
+
+### Installation Steps
+
+First, choose the installation steps for your OS below:
+
+:::info
+The steps in this tutorial have only been actually _tested_ on Windows, but the steps have been researched and _should ideally_ work on all Operating Systems.
+:::
+
+<Tabs>
+  <TabItem value="apple" label="Windows" default>
+    This is an apple 🍎
+  </TabItem>
+  <TabItem value="orange" label="MacOS">
+    MacOS Installation 🍊
+  </TabItem>
+  <TabItem value="banana" label="Linux">
+
+  Git can be installed on Linuc via a binary installer using the package manager tool that comes with your distribution. If you’re on a Debian-based distribution, such as Ubuntu, try apt:
+
+  ```sh
+  $ sudo apt install git-all
+  ```
+
+   If you're installing Git on a Fedora or related RPM-based distribution (such as RHEL or CentOS), use dnf:
+
+  ```sh
+  $ sudo dnf install git-all
+  ```
+
+  🎉 Congratulations! Git is installed! Now move on to: [How does Git work?](#how-does-git-work)
+  </TabItem>
+</Tabs>
+
+
+## How does Git work?
+Git Repositories can contain branches, which are like versions of your codebase. You can create branches
+
+## Git VCS Plugin for Godot
+
+## Next Steps
