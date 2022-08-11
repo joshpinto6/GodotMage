@@ -95,5 +95,5 @@ theme = "raditian-free-hugo-theme"
   [params.footer]
       copyright = "© 2022 GodotMage. All rights reserved."
       disclaimer = "*Not affiliated with or endorsed by the Godot Game Engine."
-      notice = "Made with ♥ with [Hugo](https://gohugo.io) & [Raditian](https://github.com/radity/raditian-free-hugo-theme) Theme"
+      notice = "Built with ♥ with [Hugo](https://gohugo.io) & [Raditian Theme](https://github.com/radity/raditian-free-hugo-theme)"
      
