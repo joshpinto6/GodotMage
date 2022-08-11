@@ -18,7 +18,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="">
+            to="../docs/category/tutorials">
             📗 Back to Tutorials
           </Link>
         </div>
@@ -35,7 +35,11 @@ export default function Home() {
       description="Free and Paid Workshops, Dev Environments, and Plugins.">
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
+        <HomepageFeatures/>
+        <div style={{margin: "0px 60px", marginBottom:"80px"}}>
+            <h1>Join the Forge today. Well, maybe not today, today.</h1>
+            <p>Check back soon. This is the future home of awesome. 😎</p>
+            </div>
       </main>
     </Layout>
   );
