@@ -38,7 +38,6 @@
             <name>Awesome OSEP</name>
             <uri>https://github.com/awesomeosep</uri>
         </author>
-        <category label="facebook" term="facebook"/>
         <category label="hello" term="hello"/>
         <category label="docusaurus" term="docusaurus"/>
     </entry>
