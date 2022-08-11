@@ -218,12 +218,23 @@
   </head>
 
   <body>
-    <header class="header fixed-top rad-animation-group" id="header">
+    <style>
+    .navbar-brand span {
+      margin-left:8px
+    }
+  @media only screen and (min-width: 400px) {
+    .navbar-brand span {
+      color: #000000 !important;
+      margin-left:3px
+    }
+  }
+</style>
+<header class="header fixed-top rad-animation-group" id="header">
   <div class="container rad-fade-in">
     <nav class="navbar navbar-expand-lg navbar-light p-0">
-      <img width=55 style="margin-right:8px" src="img/logo_outline.svg">
+      <img width=55 src="img/logo_outline.svg">
       <a class="navbar-brand" href="https://joshpinto6.github.io/GodotMage/site">
-        <span style="color:#1075c1!important;">GodotMage</span>
+        <span style="margin-left:8px; color:#1075c1;">GodotMage</span>
         
       </a>
       <button
