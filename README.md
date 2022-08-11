@@ -1,5 +1,7 @@
 ## GodotMage 🚀
-> This project is a **work in progress.** Star the repository for updates!
+> This project is a **work in progress.** 
+> 
+> Why not star the repository to find out about new updates?
 
 
 ### 🧙‍ Learn Game Development.
