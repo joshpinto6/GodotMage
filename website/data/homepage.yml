@@ -7,7 +7,7 @@ showcase:
   enable: true
   title: "Get Magic Powers."
   subtitle: "Complete, No-Shortcuts Tutorials and Courses."
-  description: "I work at <a target='_blank' href='https://radity.com/'>Radity</a>, a software development company in Switzerland. And I am a Raditian. You get the idea where theme name comes from. Keep cool, stay in touch. You can download this theme from <a target='_blank' href='https://github.com/radity/raditian-free-hugo-theme'>github</a>."
+  description: "A well known fact: Godot doesn't have enough learning resources. Instead, short videos with catchy titles fail to teach the concepts that create real game developers. GodotMage's high-quality open-source resources help you level-up your skills."
   image:
     alt: "Showcase keyboard and mouse image."
     x: "https://img.itch.zone/aW1nLzQ2MjczMjYucG5n/original/W%2Fb5In.png"
