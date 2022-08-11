@@ -39,14 +39,14 @@ const config = {
           // Remove this to remove the "edit this page" links.
           routeBasePath: '/',
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/joshpinto6/GodotMage',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/joshpinto6/GodotMage',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -79,6 +79,7 @@ const config = {
             label: 'Tutorials',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/forge', label: 'GodotForge', position: 'left'},
           {
             href: 'https://github.com/joshpinto6/GodotMage',
             label: 'GitHub',
