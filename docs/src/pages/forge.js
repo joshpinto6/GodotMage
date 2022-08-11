@@ -37,7 +37,7 @@ export default function Home() {
       <main>
         <HomepageFeatures/>
         <div style={{margin: "0px 60px", marginBottom:"80px"}}>
-            <h1>Join the Forge today. Well, maybe not today, today.</h1>
+            <h1>Join the Forge Today. Well maybe not today, today.</h1>
             <p>Check back soon. This is the future home of awesome. 😎</p>
             </div>
       </main>
