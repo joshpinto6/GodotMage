@@ -43,6 +43,12 @@ const config = {
         },
         blog: {
           showReadingTime: true,
+          feedOptions: {
+            type: 'all',
+            copyright: `Copyright © ${new Date().getFullYear()} GodotMage`,
+          },
+          readingTime: ({content, frontMatter, defaultReadingTime}) =>
+            defaultReadingTime({content, options: {wordsPerMinute: 300}}),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:

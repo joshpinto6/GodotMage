@@ -37,6 +37,8 @@ export default function Home() {
       <main>
         <HomepageFeatures/>
         <div style={{margin: "0px 60px", marginBottom:"80px"}}>
+            <h1>⚔ Embark on your next adventure.</h1>
+            <p>Learn Godot together with your peers and fellow game developers.</p>
             <h1>Join the Forge Today. Well, not today.</h1>
             <p>Make sure to check back here soon, though. This is the future home of awesome stuff. 😎</p>
             </div>
