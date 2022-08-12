@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[8420],{8782:o=>{o.exports=JSON.parse('{"label":"hello","permalink":"/GodotMage/docs/blog/tags/hello","allTagsPath":"/GodotMage/docs/blog/tags","count":1}')}}]);
