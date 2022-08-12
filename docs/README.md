@@ -5,6 +5,8 @@ This website is built using [🐱‍🐉 Docusaurus 2](https://docusaurus.io/), 
 
 Docusaurus 2 requires Node.js 16+ (You can use nvm to manage node versions) I would recommend installing npm as a package manager (rather than yarn)
 
+All blog posts are located in the `docs/blog` directory.
+
 ### Installation
 
 with yarn:
