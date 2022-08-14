@@ -3,9 +3,9 @@ GodotMage provides the project sources for all of our tutorials and snippets (wh
 
 The releases are sorted by tutorial versions and name, and when applicable will contain the episode in a tutorial or video series. 
 
-**Tutorial releases** usually contain a `starter` and `complete` zip archives. The `starter` folder contains the godot project starter code, with all the assets and setup (Input mappings, etc.) preconfigured for you. The `complete` folder contains the complete source code of the godot project, when all steps are followed correctly. This is helpful in case you made mistakes along the way and want to compare your files with the finished project, or in case you just want to take the end files.
+**Tutorial releases:** usually contain a `starter` and `complete` zip archives. The `starter` folder contains the godot project starter code, with all the assets and setup (Input mappings, etc.) preconfigured for you. The `complete` folder contains the complete source code of the godot project, when all steps are followed correctly. This is helpful in case you made mistakes along the way and want to compare your files with the finished project, or in case you just want to take the end files.
 
-**Snippet releases,** in the case of shaders, or other small additions to projects, will conatin a `snippet` folder with the applicable snippet code/files, and (sometimes) a `demo` zip archive containing a demo scene or project showing off this snippet.
+**Snippet releases:** in the case of shaders, or other small additions to projects, will conatin a `snippet` folder with the applicable snippet code/files, and (sometimes) a `demo` zip archive containing a demo scene or project showing off this snippet.
 
 Each release's description will usually contain the version of Godot that the source code has been tested with, as well as additional information about the releases, in case you forget any of the information here 😉.
 
