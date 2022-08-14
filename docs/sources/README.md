@@ -9,7 +9,7 @@ The releases are sorted by tutorial versions and name, and when applicable will 
 
 Each release's description will usually contain the version of Godot that the source code has been tested with, as well as additional information about the releases, in case you forget any of the information here 😉.
 
-> Tutorial sources which can found in the `sources/` directory, organized into subfolders by tutorial ID and episode, contain a README with most of the same information as found in the Release page for the source code. Additionally, each release links to the source found in the `sources/` directory, and each project README file found in this directory's subfolders contains a link to the corresponding release.
+Tutorial sources which can found in the `sources/` directory, organized into subfolders by tutorial ID and episode, contain a README with most of the same information as found in the release page for the source code. Additionally, each release links to the source found in the `sources/` directory, and each project README file found in this directory's subfolders contains a link to the corresponding release.
 
 In the case in which you follow our Youtube video tutorials, the source code link will be mentioned at the end of the video, as a link to a release page, and will also be found in the video description. You can also access the text-version of each tutorial from the video description.
 
