@@ -1,0 +1,41 @@
+name: 🐱‍🐉 Build Documentation
+
+on: workflow_dispatch
+    # Review gh actions docs if you want to further define triggers, paths, etc
+    # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#on
+
+jobs:
+  build:
+    name: Build with Docusaurus
+    runs-on: ubuntu-latest
+    defaults:
+       run:
+         working-directory: ./docs
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          cache-dependency-path: './docs/package-lock.json'
+          node-version: 18
+          cache: npm
+
+      - name: Install dependencies
+        working-directory: ./docs
+        run: npm ci
+      - name: Build website
+        working-directory: ./docs
+        run: npm run build
+        
+      - name: Fetch action
+        id: pl
+        uses: Rishabh510/Path-lister-action@master
+        with:
+          path: "docs/"
+          type: ".html"
+          
+      - name: Output results
+        run: |
+          echo "Found ${{ steps.pl.outputs.path_count }} file(s) with this extension:"
+          for i in ${{ steps.pl.outputs.paths }}; do
+          echo $i
+          done
