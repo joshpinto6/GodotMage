@@ -7,8 +7,9 @@ Docusaurus 2 requires Node.js 16+ (You can use nvm to manage node versions) I wo
 
 All blog posts are located in the `docs/blog` directory.
 
-### Actions
+## Actions
 
+## Setup and Usage
 
 ### Installation
 
