@@ -1,11 +1,11 @@
 # GodotMage 🧙‍
 > This project is a **work in progress.** 
 > 
-> Why not star the repository to find out about new updates?
+> ⭐Why not star the repository to find out about new updates?
 
 ### Table of Contents
 - [Introduction](#introduction-) 👋
-- [Using GodotMage 🌠](#using-godotmage-)
+- [Tutorials and Usage 🌠](#tutorials-and-usage-)
 - [Github Actions 🚀](#github-actions-)
 - [Repository Directory Structure 📁](#repository-structure-)
 - [Issues and Suggestions 💬](#issues-and-suggestions-)
