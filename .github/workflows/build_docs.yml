@@ -12,7 +12,7 @@ on:
 
 jobs:
   cancel-workflow-runs:
-   name: Cancel Previous Workflow Runs 
+   name: Cancel Previous Runs 
    runs-on: ubuntu-latest
    steps:
     - name: Cancel Previous Workflow Runs
