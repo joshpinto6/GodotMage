@@ -1,11 +1,24 @@
-name: Deploy Website to GitHub Pages
+name: 🌐 Deploy Website to GitHub Pages
 
-on: workflow_dispatch
+on: 
+    push:
+        branches:
+          - master
+        paths:
+          - website/**
+    workflow_dispatch:
     # Review gh actions docs if you want to further define triggers, paths, etc
     # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#on
 
 jobs:
+  cancel-workflow-runs:
+     name: Cancel Previous Runs 
+     runs-on: ubuntu-latest
+     steps:
+      - name: Cancel Previous Workflow Runs
+        uses: n1hility/cancel-previous-runs@v2.0
   deploy:
+    needs: [cancel-workflow-runs]
     name: Deploy to GitHub Pages
     runs-on: ubuntu-latest
     defaults:
