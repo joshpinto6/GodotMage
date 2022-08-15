@@ -10,6 +10,12 @@ on:
     # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#on
 
 jobs:
+  cancel-workflow-runs:
+   name: Cancel Previous Workflow Runs 
+   runs-on: ubuntu-latest
+   steps:
+    - name: Cancel Previous Workflow Runs
+      uses: n1hility/cancel-previous-runs@v2.0
   build:
     name: Build with Docusaurus
     runs-on: ubuntu-latest
