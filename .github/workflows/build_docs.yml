@@ -41,7 +41,7 @@ jobs:
         
       - uses: actions/upload-artifact@v3
         with:
-          name: my-artifact
+          name: Build
           path: docs/build/ # or path/to/artifact
           if-no-files-found: error # 'warn' or 'ignore' are also available, defaults to `warn`
         
