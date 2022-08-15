@@ -1,4 +1,4 @@
-name: 📙 Deploy Docs to GitHub Pages
+name: 📘 Deploy Docs to GitHub Pages
 
 on: workflow_dispatch
     # Review gh actions docs if you want to further define triggers, paths, etc
