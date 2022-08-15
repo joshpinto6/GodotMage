@@ -1,11 +1,18 @@
-name: Deploy Docs to GitHub Pages
+name: 📙 Deploy Docs to GitHub Pages
 
 on: workflow_dispatch
     # Review gh actions docs if you want to further define triggers, paths, etc
     # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#on
 
 jobs:
+  cancel-workflow-runs:
+    name: Cancel Previous Runs 
+    runs-on: ubuntu-latest
+    steps:
+      - name: Cancel Previous Workflow Runs
+        uses: n1hility/cancel-previous-runs@v2.0
   deploy:
+    needs: [cancel-workflow-runs]
     name: Deploy to GitHub Pages
     runs-on: ubuntu-latest
     defaults:
@@ -26,19 +33,25 @@ jobs:
         working-directory: ./docs
         run: npm run build
         
-      - name: Fetch action
-        id: pl
-        uses: Rishabh510/Path-lister-action@master
-        with:
-          path: "docs/"
-          type: ".html"
+#       - name: Fetch action
+#         id: pl
+#         uses: Rishabh510/Path-lister-action@master
+#         with:
+#           path: "docs/"
+#           type: ".html"
           
-      - name: Output results
-        run: |
-          echo "Found ${{ steps.pl.outputs.path_count }} file(s) with this extension:"
-          for i in ${{ steps.pl.outputs.paths }}; do
-          echo $i
-          done
+#       - name: Output results
+#         run: |
+#           echo "Found ${{ steps.pl.outputs.path_count }} file(s) with this extension:"
+#           for i in ${{ steps.pl.outputs.paths }}; do
+#           echo $i
+#           done
+
+      - uses: actions/upload-artifact@v3
+        with:
+          name: Build
+          path: docs/build/ # or path/to/artifact
+          if-no-files-found: error # 'warn' or 'ignore' are also available, defaults to `warn`
                   
       # Popular action to deploy to GitHub Pages:
       # Docs: https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-docusaurus
