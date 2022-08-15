@@ -39,6 +39,12 @@ jobs:
         working-directory: ./docs
         run: npm run build
         
+      - uses: actions/upload-artifact@v3
+        with:
+          name: my-artifact
+          path: docs/build/ # or path/to/artifact
+          if-no-files-found: error # 'warn' or 'ignore' are also available, defaults to `warn`
+        
 #       - name: Fetch action
 #         id: pl
 #         uses: Rishabh510/Path-lister-action@master
@@ -53,8 +59,3 @@ jobs:
 #           echo $i
 #           done
 
-      - uses: actions/upload-artifact@v3
-        with:
-          name: my-artifact
-          path: docs/build/ # or path/to/artifact
-      
