@@ -1,4 +1,4 @@
-name: Deploy Everything to GitHub Pages
+name: 🚀 Deploy Everything to GitHub Pages
 
 on:
   push:
@@ -38,8 +38,6 @@ jobs:
         # remove --minify tag if you do not need it
         # docs: https://gohugo.io/hugo-pipes/minification/
         run: hugo
-        
-
         
       - name: Build Docusaurus Webapp
         working-directory: ./docs
