@@ -21,4 +21,10 @@ Coming soon.
 ## Repository Directory Structure:
 The `website/` folder contains the source code for the Hugo site hosted with Github Pages. The `docs/` folder, on the other hand, contains docusaurus sources.
 
-The `docs/blog` directory contains blog posts.
+The `docs/` folder contains the Docusaurus 2 documentation website source.
+
+- The `docs/blog` directory contains Docusaurus blog posts.
+
+The `.vscode/` folder contains tasks and other workspace configurations meant for users of VSCode. Specific Documentation for these tasks can be found within this directory.
+
+## Github Actions
