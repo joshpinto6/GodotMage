@@ -34,7 +34,9 @@ The `.vscode/` folder contains tasks and other workspace configurations meant fo
 ### Documentation and Support 📚
 
 ### License and Contributing 🔗
-GodotMage tutorials, project sources, and website are all licensed under the MIT license. The MIT license is a permissive open-source license, which means that you can fork, modify, and redistribute. We want to provide all of our sources for free, which we believe includes choosing permissive license for our software and content. Read the full license [here.](LICENSE)
+All of GodotMage;s tutorials, project sources, and websites are all licensed under the MIT license. The MIT license is a permissive open-source license, which means that you can fork, modify, and redistribute. We want to provide all of our sources for free, which we believe includes choosing permissive license for our software and content. Read the full license [here.](LICENSE)
+
+> All video content is proprietary and protected by United States copyright law. Notable exception is "fair use", which includes in educational institutions and schools.
 
 **Contributing:** 
 We ask that if you fork the repository to run your own business, you remove our logos, brand images, and page titles. We are working on an easy method to specify these images and strings. 
