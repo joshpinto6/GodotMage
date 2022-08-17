@@ -1,2 +1,2 @@
 # Contirbuting
-To contribute to GodotMage, fork the repository.
+To contribute to GodotMage, first fork the repository.
