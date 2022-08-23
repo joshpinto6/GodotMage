@@ -1,11 +1,15 @@
 ## 📘 GodotMage Documentation Website 
-GodotMage Tutorial website. All tutorials are hosted here!
+GodotMage Tutorial Documentation website. All of our tutorials are hosted here!
 
 This website is built using [🐱‍🐉 Docusaurus 2](https://docusaurus.io/), a modern static website generator. 
 
 Docusaurus 2 requires Node.js 16+ (You can use nvm to manage node versions) I would recommend installing npm as a package manager (rather than yarn)
 
 All blog posts are located in the `docs/blog` directory.
+
+## Actions
+
+## Setup and Usage
 
 ### Installation
 
