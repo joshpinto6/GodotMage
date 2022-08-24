@@ -7,7 +7,7 @@
 - [Introduction](#introduction-) 👋
 - [Tutorials and Usage 🌠](#tutorials-and-usage-)
 - [Github Actions 🚀](#github-actions-)
-- [Giscus Comments/Forums 💎](#giscus-comments-forums-)
+- [Giscus Comments/Forums 💎](#giscus-comments-and-forums-)
 - [Repository Directory Structure 📁](#repository-directory-structure-)
 - [Issues and Suggestions 💬](#issues-and-suggestions-)
 - [Documentation and Support 📚](#documentation-and-support-)
@@ -28,7 +28,7 @@ Upgrade your skills. Learn from and with other game developers. Coming soon.
 
 ### Github Actions 🚀
 
-### Giscus Comments/Forums 💎
+### Giscus Comments and Forums 💎
 
 ### Repository Directory Structure 📁
 The `website/` folder contains the source code for the Hugo site hosted with Github Pages. The `docs/` folder, on the other hand, contains docusaurus sources.
@@ -45,7 +45,7 @@ If you find an issue with one of our tutorials or project sources, you can repor
 ### Documentation and Support 📚
 If you have questions about a tutorial or blog posts, or want to leave a comment or your thoughts, many posts have a [comments section](https://giscus.app/) attached. To leave a comment, simple click the **Sign in with Github** button which will redirect you to a new tab where you can sign in. After authenticating, you can now post comments and reactions on blog posts and articles! 
 
-To learn more about how GodotMage comments work, read [this section](#giscus-comments-forums-).
+To learn more about how GodotMage comments work, read [this section](#giscus-comments-and-forums-).
 
 ### License and Contributing 🔗
 All of GodotMage;s tutorials, project sources, and websites are licensed under the MIT license. The MIT license is a permissive open-source license, which means that you can fork, modify, and redistribute. We want to provide all of our sources for free, which we believe includes choosing permissive license for our software and content. Read the full license [here.](LICENSE)
