@@ -8,7 +8,7 @@
 - [Tutorials and Usage 🌠](#tutorials-and-usage-)
 - [Github Actions 🚀](#github-actions-)
 - [Giscus Comments/Forums 💎](#giscus-comments-forums-)
-- [Repository Directory Structure 📁](#repository-structure-)
+- [Repository Directory Structure 📁](#repository-directory-structure-)
 - [Issues and Suggestions 💬](#issues-and-suggestions-)
 - [Documentation and Support 📚](#documentation-and-support-)
 - [License and Contributing 🔗](#license-and-contributing-)
@@ -18,6 +18,13 @@ Learn real Game Development skills. For free.
 
 #### ⚔ Come to the Forge.
 Upgrade your skills. Learn from and with other game developers. Coming soon.
+
+### Tutorials and Usage 🌠
+**New to GodotMage?** Here's how you can start upgrading your Godot skills, regardless of experience and skill level!:
+
+- [📚 Browse Tutorials](https://joshpinto6.github.io/GodotMage/docs)
+- [🎮 Contribute a tutorial](#license-and-contributing-)
+- [💬 Engage with the community: Ask Questions!](https://github.com/joshpinto6/GodotMage/Discussions)
 
 ### Github Actions 🚀
 
