@@ -48,13 +48,19 @@ All of GodotMage;s tutorials, project sources, and websites are licensed under t
 **Contributing:** 
 If you want to contribute to GodotMage, make your own copy of this repository by forking it. You will probably need some basic knowledge of Git and JS if you wish to contribute code, otherwise, for writing documentation articles, [Markdown fluency](https://www.markdownguide.org/) is sufficient. We ask that if you fork the repository for any purpose other than contributing changes back to the main repository, that you remove our logos, brand images, and project titles. 
 
+> 💡 We are working on an easier way to customize/edit these images and strings. 
+
+To contribute to thre GodotMage main repo, please first [Create an Issue](https://github.com/joshpinto6/GodotMage/issues/new/choose) describing the bug, feature, or changes you wish to make. **IMPORTANT NOTE:** It is important to ensure that your issue/feature request has not alreayd been created by [searching for issues](https://github.com/joshpinto6/GodotMage/search?type=issues) that may be related. If no issue has already been created, go ahead and create yours. If it has, first ensure that the original issue poster isn't already working on the feature, to reduce redundant development work. 
+
+> ✨ Feel free to suggest how the OP can improve their feature or give ideas on how you think it could be accomplished. Collaboration is a great way to engage with other contributors! Make sure to follow the [Contributing Guidelines!](CONTRIBUTING.md)
+
+Next, [Create a Pull Request](https://github.com/joshpinto6/GodotMage/pulls) linking to the issue for your feature. 
+
 To understand how GodotMage works and how to actually fork it, read the section on the Repository directory structure [here.](#repository-directory-structure-)
 
-> 💡 We are working on an easy way to customize these images and strings quickly. 
+**Contributor License Agreements:**
 
-To contribute to thre GodotMage main repo, please first [Create an Issue](https://github.com/joshpinto6/GodotMage/issues) describing the bug, feature, or changes you wish to make. Next, [Create a Pull Request](https://github.com/joshpinto6/GodotMage/pulls) linking to your issue. GodotMage contributors are helping to contribute their source code and intellectual property, which is protected under various international copyright laws. 
-
-To prevent conflicts between contributors and  GodotMage over copyright claims, a **Contributor License Agreement** must be signed by all contributors. 
+GodotMage contributors are helping to contribute their source code and intellectual property, which is protected under various international copyright laws. To prevent these conflicts between contributors and  GodotMage over copyright claims, a **Contributor License Agreement** must be signed by all contributors. 
 
 Immediately after creating a pull request, you will recieve an automated reply prompting for a CLA signature. Once you have signed the CLA, a GodotMage maintainer will reply to your pull request (usually within 24 hours) and help you merge your changes. 
 
