@@ -5,11 +5,11 @@ authors: [joshpinto6]
 tags: [Godot, Plugins, Themes, 2022]
 ---
 
-Nothing showcases Godot's highly flexible and customizable nature more than the abundance of high-quality themes and plugins available for the engine. This post lists some of our favorite plugins and themes, you can use in your game.
+Nothing showcases Godot's highly flexible and customizable nature more than the abundance of high-quality themes and plugins available for the engine. This post lists some of our favorite plugins and themes that will enhance or improve your development experience.
 
-Let's get started!
+Let's get started! 😎
 
-## Themes:
+### Themes:
 
-### 1. Dracula Theme for Godot
-Number one in the themes category is the Dracula theme!
+1. #### Dracula Theme for Godot
+Number one for us in the themes category has to be the Dracula theme!

@@ -15,7 +15,7 @@ I put the word **game** in bold because someone looking at their website would h
 Following the backlash from users pointing out website changes, Unity updated its website to feature game development more centrally. At first, this seems like a good thing, but considering they didn't make any announcements regarding this change or how their company is planning to move forward, this just comes across as just a form of damage control.
 :::
 
-However, this is nothing new. If you don't know, Unity is a publically traded company. This means that they are **legally obligated to make any business **decision that **benefits** their shareholders**.** AKA: To make as much money as possible, using any means necessary. Regardless of how it affects their community.
+However, this is nothing new. If you don't know, Unity is a publically traded company. This means that they are **legally obligated to make business decisions to benefit their shareholders, not game developers or the "community"** For Unity, this means most of their shareholders are probably investors who have never used the engine, and only care about seeing buzzwords in company announcements and their stocks rise. 
 
 Unlike Unity, Godot has no corporate management teams in big buildings deciding mergers. Godot is free and open source. This means that the community builds the software. We, the community, help to build the platform. Some big company can't just come and mess things up.
 

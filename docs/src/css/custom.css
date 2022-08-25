@@ -35,3 +35,7 @@
 .giscus.giscus-frame {
   width: calc(100% - 60px) !important;
 }
+
+.gsc-comments-count {
+  color: #d6d6d6 !important;
+}

@@ -85,6 +85,7 @@ const config = {
             label: 'Tutorials',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/forums', label: 'Forums', position: 'left'},
           {to: '/forge', label: 'GodotForge', position: 'left'},
           {
             href: 'https://github.com/joshpinto6/GodotMage',
