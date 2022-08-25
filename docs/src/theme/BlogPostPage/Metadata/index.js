@@ -1,9 +1,14 @@
+// Swizzled Component: BlogPostPageMetadata
+// Changes:
+// - Added delay to component element load
+// - Added giscus <script> to metadata
+
 import React from 'react';
 import {PageMetadata} from '@docusaurus/theme-common';
 import {useBlogPost} from '@docusaurus/theme-common/internal';
 
-
-
+// Added dependency
+import BrowserOnly from '@docusaurus/BrowserOnly';
 
 const BlogPostPageMetadata = () => {
   const {assets, metadata} = useBlogPost();
@@ -22,7 +27,7 @@ const BlogPostPageMetadata = () => {
   }, [show])
 
   if (!show) return null
-  
+
 
   return (
   <PageMetadata
@@ -31,6 +36,7 @@ const BlogPostPageMetadata = () => {
       keywords={keywords}
       image={image}>
       <meta property="og:type" content="article" />
+      <BrowserOnly>
       <script src="https://giscus.app/client.js"
         data-repo="joshpinto6/GodotMage"
         data-repo-id="R_kgDOHyCIow"
@@ -47,6 +53,7 @@ const BlogPostPageMetadata = () => {
         crossorigin="anonymous"
         async>
 </script> 
+</BrowserOnly>
       <meta property="article:published_time" content={date} />
       {/* TODO double check those article meta array syntaxes, see https://ogp.me/#array */}
       {authors.some((author) => author.url) && (

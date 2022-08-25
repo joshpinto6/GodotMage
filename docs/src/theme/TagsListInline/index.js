@@ -8,8 +8,10 @@ import clsx from 'clsx';
 import Translate from '@docusaurus/Translate';
 import Tag from '@theme/Tag';
 import styles from './styles.module.css';
-import CommemtSection from '../../components/CommentSection.js';
 
+// Added dependencies
+import CommemtSection from '../../components/CommentSection.js';
+import BrowserOnly from '@docusaurus/BrowserOnly';
 
 export default function TagsListInline({tags}) {
   return (
@@ -29,7 +31,9 @@ export default function TagsListInline({tags}) {
         ))}
       </ul>
 
-      <CommemtSection />
+      <BrowserOnly fallback={<div>Loading Comments...</div>}>
+        <CommemtSection />
+      </BrowserOnly>
     </>
   );
 }
