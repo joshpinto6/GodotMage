@@ -41,7 +41,7 @@ The `.vscode/` folder contains tasks and other workspace configurations meant fo
 If you find an issue with one of our tutorials or project sources, you can report it in the [Issues tab](https://github.com/joshpinto6/GodotMage/Issues) of the [Github repository](https://github.com/joshpinto6/GodotMage). Please select what type of issue you've found, describe the steps to reproduce, and provide the information prompted in your selected issue template.
 
 ### Documentation and Support 📚
-If you have questions about a tutorial or blog posts, or want to leave a comment or your thoughts, many posts have a [comments section](https://giscus.app/) attached. To leave a comment, simple click the **Sign in with Github** button which will redirect you to a new tab where you can sign in. After authenticating, you can now post comments and reactions on blog posts and articles! 
+If you have questions about a tutorial or blog post or want to leave a comment or your thoughts, many posts have a [comments section](https://giscus.app/) attached. To leave a comment, simply click the **Sign in with Github** button which will redirect you to a new tab where you can sign in. After authenticating, you can now post comments and reactions on blog posts and articles! 
 
 To learn more about how GodotMage comments work, read [this section](#giscus-comments-and-forums-).
 
@@ -52,11 +52,11 @@ All of GodotMage's tutorials, project sources, and websites are licensed under t
 
 **Contributing:** 
 
-If you want to contribute to GodotMage, make your own copy of this repository by forking it. You will probably need some basic knowledge of Git and JS if you wish to contribute code, otherwise, for writing documentation articles, [Markdown fluency](https://www.markdownguide.org/) is sufficient. We ask that if you fork the repository for any purpose other than contributing changes back to the main repository, you remove our logos, brand images, and references to the project name.
+If you want to contribute to GodotMage, make a copy of this repository by forking it. You will probably need some basic knowledge of Git and JS if you wish to contribute code, otherwise, for writing documentation articles, [Markdown fluency](https://www.markdownguide.org/) is sufficient. We ask that if you fork the repository for any purpose other than contributing changes back to the main repository, you remove our logos, brand images, and references to the project name.
 
 > 💡 We are working on an easier way to customize/edit these images and strings. 
 
-To contribute to thre GodotMage main repo, please first [Create an Issue](https://github.com/joshpinto6/GodotMage/issues/new/choose) describing the bug, feature, or changes you wish to make. **IMPORTANT NOTE:** It is important to ensure that your issue/feature request has not alreayd been created by [searching for issues](https://github.com/joshpinto6/GodotMage/search?type=issues) that may be related. If no issue has already been created, go ahead and create yours. If it has, first ensure that the original issue poster isn't already working on the feature, to reduce redundant development work. 
+To contribute to the GodotMage main repo, please first [Create an Issue](https://github.com/joshpinto6/GodotMage/issues/new/choose) describing the bug, feature, or changes you wish to make. **IMPORTANT NOTE:** It is important to ensure that your issue/feature request has not already been created by [searching for issues](https://github.com/joshpinto6/GodotMage/search?type=issues) that may be related. If no issue has already been created, go ahead and create yours. If there is one, check that the original issue poster isn't already working on the feature, to reduce redundant development work. 
 
 > ✨ Feel free to suggest how the OP can improve their feature or give ideas on how you think it could be accomplished. Collaboration is a great way to engage with other contributors! Make sure to follow the [Contributing Guidelines!](CONTRIBUTING.md)
 
