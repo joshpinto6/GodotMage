@@ -35,25 +35,23 @@ const BlogPostPageMetadata = () => {
       image={image}
     >
       <meta property="og:type" content="article" />
-      <BrowserOnly>
-        <script
-          src="https://giscus.app/client.js"
-          data-repo="joshpinto6/GodotMage"
-          data-repo-id="R_kgDOHyCIow"
-          data-category="Tutorial Discussions"
-          data-category-id="DIC_kwDOHyCIo84CRA2O"
-          data-mapping="pathname"
-          data-strict="0"
-          data-reactions-enabled="0"
-          data-emit-metadata="1"
-          data-input-position="top"
-          data-theme="preferred_color_scheme"
-          data-lang="en"
-          data-loading="lazy"
-          crossorigin="anonymous"
-          async
-        ></script>
-      </BrowserOnly>
+      <script
+        src="https://giscus.app/client.js"
+        data-repo="joshpinto6/GodotMage"
+        data-repo-id="R_kgDOHyCIow"
+        data-category="Tutorial Discussions"
+        data-category-id="DIC_kwDOHyCIo84CRA2O"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="0"
+        data-emit-metadata="1"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async
+      ></script>
       <meta property="article:published_time" content={date} />
       {/* TODO double check those article meta array syntaxes, see https://ogp.me/#array */}
       {authors.some((author) => author.url) && (
