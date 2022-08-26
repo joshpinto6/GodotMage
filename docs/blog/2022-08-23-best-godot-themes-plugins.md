@@ -12,4 +12,4 @@ Let's get started! 😎
 ### Themes:
 
 1. #### Dracula Theme for Godot
-Number one for us in the themes category has to be the Dracula theme!
+   Number one for us in the themes category has to be the Dracula theme!
